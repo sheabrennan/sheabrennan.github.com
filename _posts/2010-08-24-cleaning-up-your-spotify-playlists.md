@@ -4,6 +4,8 @@ categories: [spotify, ui, trick]
 tumblr_id: 1134423123  
 date: 2010-08-24 12:45:00 UTC
 title: Cleaning up your Spotify playlists
+redirect_from: ["/2010/08/24/cleaning-up-your-spotify-playlists.html"]
+
 ---
 
 With the [release of playlist groups in Spotify](https://www.spotify.com/uk/blog/archives/2010/08/24/playlist-folders/) you are now able to clean up that messy sidebar. Here's a little trick I like myself, using the magic "-" playlist separators to add "dynamic" group dividers.
@@ -16,4 +18,4 @@ With the [release of playlist groups in Spotify](https://www.spotify.com/uk/blog
 
 Now, when the group is expanded you will get a divider at the bottom, and when the group is folded there will be no divider:
 
-<img src="http://farm5.static.flickr.com/4118/4922904387_a13735e0b7_o.png" alt="Screenshots illustrating expanded vs folded state">
+<img src="//farm5.static.flickr.com/4118/4922904387_a13735e0b7_o.png" alt="Screenshots illustrating expanded vs folded state">

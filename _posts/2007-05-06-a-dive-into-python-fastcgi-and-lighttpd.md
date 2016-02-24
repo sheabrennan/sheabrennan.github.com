@@ -4,6 +4,8 @@ categories: [python, lighttpd, fastcgi]
 tumblr_id: 1133086125  
 date: 2007-05-06 21:44:20 UTC
 title: A dive into Python, FastCGI and Lighttpd
+redirect_from: ["/2007/05/06/a-dive-into-python-fastcgi-and-lighttpd.html"]
+
 ---
 
 I decided to do some performance analysis on python and fcgi.

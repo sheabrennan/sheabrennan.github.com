@@ -4,9 +4,11 @@ categories: [essay, web, javascript, html5, dropular, software]
 tumblr_id: 1102105292  
 date: 2009-12-16 22:02:14 UTC
 title: Large-scale distributed processing on the web
+redirect_from: ["/2009/12/16/large-scale-distributed-processing-using-javascript.html"]
+
 ---
 
-<img src="http://farm3.static.flickr.com/2539/4190869543_28ea74d5bd_m.jpg" width="233" height="240" alt="Silly drawing illustrating the awesomeness of people and the internets" align="right"> The title probably gives you goose bumps. No? It doesn't? Maybe it should.
+<img src="//farm3.static.flickr.com/2539/4190869543_28ea74d5bd_m.jpg" width="233" height="240" alt="Silly drawing illustrating the awesomeness of people and the internets" align="right"> The title probably gives you goose bumps. No? It doesn't? Maybe it should.
 
 Imagine you have a lot of work to do, a lot of image processing work, like rescaling and cropping large amounts of pictures. Now think about the web as we know it, with web sites where people hang around for a few seconds now and then. Imagine each visitor would be given a task to complete while reading your web site. Like for instance download, rescale and crop a picture from somewhere on the web. It's possible my friend.
 
@@ -40,7 +42,7 @@ Moreover desktop applications in general does only perform processing on trusted
 
 What we are trying to do is to **marry the two methods**, effectively performing processing only when needed and sharing the results among visitors.
 
-[<img src="http://farm3.static.flickr.com/2672/4190761739_a481949c00_o.png" width="600" height="593" alt="Flow diagram">](http://hunch.se/stuff/distributed-image-processing-web.pdf)
+[<img src="//farm3.static.flickr.com/2672/4190761739_a481949c00_o.png" width="600" height="593" alt="Flow diagram">](http://hunch.se/stuff/distributed-image-processing-web.pdf)
 
 ## [The problem with trust](#trust)
 

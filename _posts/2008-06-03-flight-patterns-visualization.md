@@ -4,6 +4,8 @@ categories: [aviation, animation, data, usa, visualization]
 tumblr_id: 1121195029  
 date: 2008-06-03 08:33:31 UTC
 title: Flight Patterns Visualization
+redirect_from: ["/2008/06/03/flight-patterns-visualization.html"]
+
 ---
 
 <a href="http://www.aaronkoblin.com/work/flightpatterns/"><img src="/attachments/2008/06/akoblin-faa-flight-patterns-viz.jpg" alt="Flight Patterns Visualization" width="500" height="305" class="alignnone size-full wp-image-496" /></a>

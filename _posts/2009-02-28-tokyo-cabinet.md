@@ -4,6 +4,8 @@ categories: [dbm, database, python, tokyocabinet, tyrant, performance, software]
 tumblr_id: 1102106058  
 date: 2009-02-28 16:20:00 UTC
 title: Tokyo Cabinet
+redirect_from: ["/2009/02/28/tokyo-cabinet.html"]
+
 ---
 
 Lately I've been researching some into the holy grail of keyed data storage – best combination of performance, scalability, efficiency and availability. There are many, many options available ranging from the <a href="http://en.wikipedia.org/wiki/Berkeley_DB">Berkeley DB</a> to <a href="http://labs.google.com/papers/bigtable.html">BigTable</a> implementations like <a href="http://hypertable.org/">Hypertable</a>.

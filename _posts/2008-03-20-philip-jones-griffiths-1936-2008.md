@@ -4,6 +4,8 @@ categories: [magnum, photography, death, photographer, person]
 tumblr_id: 1111979220  
 date: 2008-03-20 11:45:08 UTC
 title: Philip Jones Griffiths 1936-2008
+redirect_from: ["/2008/03/20/philip-jones-griffiths-1936-2008.html"]
+
 ---
 
 <img src='/attachments/2008/03/philip-jones-griffiths.jpg' alt='Philip Jones Griffiths and one of his pictures' />

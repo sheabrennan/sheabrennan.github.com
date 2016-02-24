@@ -4,11 +4,13 @@ categories: [gitblog, ui, ux, software]
 tumblr_id: 1102105142  
 date: 2009-10-12 00:11:46 UTC
 title: Manage posts in Gitblog web admin UI
+redirect_from: ["/2009/10/12/post-manager-in-gitblog.html"]
+
 ---
 
 The latest version of Gitblog got a new posts manager, which has been inspired by the inbox of Google Mail.
 
-<a href="http://farm3.static.flickr.com/2445/4002358763_550724f3de_o.png"><img src="http://farm3.static.flickr.com/2657/4002358777_4e642cfce1_o_d.png" width="600"></a>
+<a href="http://farm3.static.flickr.com/2445/4002358763_550724f3de_o.png"><img src="//farm3.static.flickr.com/2657/4002358777_4e642cfce1_o_d.png" width="600"></a>
 
 As a post can be in several states (and versions) at the same time, I had to use multiple dimensions of visual cues -- row colors, labels ("Draft", the "scheduled" clock) and hierarchical rows in the case when there is a work version alongside a cached version.
 

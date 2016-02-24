@@ -4,6 +4,8 @@ categories: [os x, mac, microsoft, office]
 tumblr_id: 1111973766  
 date: 2008-01-21 15:15:34 UTC
 title: Microsoft Office 2008 for Mac
+redirect_from: ["/2008/01/21/microsoft-office-2008-for-mac.html"]
+
 ---
 
 <a href="/attachments/2008/01/entourage.jpg" title="entourage.jpg"><img src="/attachments/2008/01/entourage.thumbnail.jpg" alt="entourage.jpg" style="margin-left: 10px; margin-bottom: 10px" align="right" /></a>Was quite a big disappointment, actually.

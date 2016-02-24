@@ -4,6 +4,8 @@ categories: [spotify, real-time, visualization, cocui, software]
 tumblr_id: 1102105223  
 date: 2009-11-25 23:21:39 UTC
 title: Easy data visualization with WebKit
+redirect_from: ["/2009/11/25/easy-data-visualization-with-webkit.html"]
+
 ---
 
 At Spotify, we recently put up two large TV screens on the walls of our Stockholm office (most R&D is done there). The idea is to visualize & communicate that *"stuff is happening"* without actually revealing any critical data (since a lot of external people are visiting the office).
@@ -12,13 +14,13 @@ Today me, [Andreas Öman](http://www.lonelycoder.com/) and [Emil Hesslow](http:/
 
 We ended up writing a real-time search query visualization in just about a few hours. It looks like this and is smoothly animated:
 
-[<img src="http://farm3.static.flickr.com/2683/4134842328_5f28afb5c9_b.jpg" alt="Screen shot">](http://hunch.se/tmp/091126-sptv1demo/)
+[<img src="//farm3.static.flickr.com/2683/4134842328_5f28afb5c9_b.jpg" alt="Screen shot">](http://hunch.se/tmp/091126-sptv1demo/)
 
 *[Try a demo version here...](http://hunch.se/tmp/091126-sptv1demo/)* (Tested in Safari, iPhone, Firefox and Chrome).
 
 How did we manage to build a real-time scalable system and high-performance viz in such an awfully short time?!
 
-<img src="http://farm3.static.flickr.com/2509/4134104571_69eda37643_m.jpg" width="240" height="180" alt="Hack night" align="right" title="Hacking in style with lit candles and beer">Well, for starters we used WebKit through [Cocui](http://rsms.me/2009/09/16/introduction-to-cocui.html) which instantly gave us full screen high-performance hardware-accelerated drawing (yes, it's a long sentence with cool words but those things shouldn't be taken for granted).
+<img src="//farm3.static.flickr.com/2509/4134104571_69eda37643_m.jpg" width="240" height="180" alt="Hack night" align="right" title="Hacking in style with lit candles and beer">Well, for starters we used WebKit through [Cocui](http://rsms.me/2009/09/16/introduction-to-cocui.html) which instantly gave us full screen high-performance hardware-accelerated drawing (yes, it's a long sentence with cool words but those things shouldn't be taken for granted).
 
 *But... where does the data come from? From the internets?* -- Not really, but it sure travels in internets-style. We use a [dumb pub/sub message queue](/2009/10/comethttp-push-with-nginx). In one end a client (the WebKit/[Cocui](/2009/09/introduction-to-cocui) app in HTML/JavaScript) is listening (subscribing). In the other end one of our search servers are pushing messages into the queue in batches.
 

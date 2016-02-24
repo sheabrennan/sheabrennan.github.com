@@ -4,9 +4,11 @@ categories: [spotify, playlist, music]
 tumblr_id: 1111974813  
 date: 2008-01-30 14:54:45 UTC
 title: Collaborative Playlists
+redirect_from: ["/2008/01/30/collaborative-playlists.html"]
+
 ---
 
-<img src="http://img.skitch.com/20080130-kx4pcnj43dt85fmrcdf65x7huu.png" style="margin-left: 1em; margin-bottom: 1em" align="right" />We released a feature called Collaborative Playlists yesterday, which basically is a playlist who anyone subscribing to it can modify.
+<img src="//img.skitch.com/20080130-kx4pcnj43dt85fmrcdf65x7huu.png" style="margin-left: 1em; margin-bottom: 1em" align="right" />We released a feature called Collaborative Playlists yesterday, which basically is a playlist who anyone subscribing to it can modify.
 
 It's pretty simple, create a new playlist, option-click it and select "Collaborative Playlist".
 Add some songs if you wish and send the link to a few friends. (you can drag the playlist into an instant messenger, a e-mail message, or simply option-click the playlist and select "Copy Link")

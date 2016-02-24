@@ -4,6 +4,8 @@ categories: [tumblr, theme]
 tumblr_id: 1137689240  
 date: 2010-09-17 14:48:00 UTC
 title: Tumblr theme
+redirect_from: ["/2010/09/17/tumblr-theme.html"]
+
 ---
 
 By popular demand I am releasing the Tumblr theme I've created for this site. You can grab the source at [github.com/rsms/tumblr-theme-hunch](http://github.com/rsms/tumblr-theme-hunch). Please respect the MIT license (and remember to make love, not war).

@@ -4,6 +4,8 @@ categories: [http, nginx, push, comet, software, pubsub]
 tumblr_id: 1102104542  
 date: 2009-10-05 00:00:00 UTC
 title: 10 000 comet connections
+redirect_from: ["/2009/10/05/10k-comet-connections.html"]
+
 ---
 
 Q: How well does the [Nginx HTTP push module](http://github.com/rsms/nginx_http_push_module) perform with 10 000 concurrent clients? (Ye olde [C10k problem](http://www.kegel.com/c10k.html)).
@@ -133,7 +135,7 @@ Now, lets look at memory consumption again (this was sampled *before* we posted 
 	VmSize:   109288 kB (6.8 kB/conn)
 	VmRSS:     73216 kB (6.8 kB/conn)
 
-<img src="http://farm5.static.flickr.com/4144/4992519275_1b5b017d9f_o.png" align="right" alt="Graph of memory consumption per client">**6.8 kB per connection** -- Not bad. Not bad at all. And it took about 100ms in total to send the message to all 10 000 clients.
+<img src="//farm5.static.flickr.com/4144/4992519275_1b5b017d9f_o.png" align="right" alt="Graph of memory consumption per client">**6.8 kB per connection** -- Not bad. Not bad at all. And it took about 100ms in total to send the message to all 10 000 clients.
 
 To get a better idea of the *memory-per-connection ratio* (N kB/conn), let's look at how much memory is used for 100, 1000 and 5000 connections.
 

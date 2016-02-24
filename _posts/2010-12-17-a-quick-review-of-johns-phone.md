@@ -5,6 +5,8 @@ tumblr_id: 2348765800
 date: 2010-12-17 15:26:00 UTC
 title: A quick review of John's Phone
 description: "One thing I really quite like about this phone is the looks of it. I mean, who wouldn’t want a phone that uses the classic The Bomb for the “end call” button?!"
+redirect_from: ["/2010/12/17/a-quick-review-of-johns-phone.html"]
+
 ---
 
 ![Picture of John's Phone with accessories](http://farm6.static.flickr.com/5001/5268844082_388e53b758_z.jpg)
@@ -32,6 +34,6 @@ At the top of the phone there's a 1-bit (black-and-white) old-style LCD which di
 
 Here's a short and shaky movie of the three animations:
 
-<iframe title="YouTube video player" class="youtube-player" type="text/html" width="640" height="510" src="http://www.youtube.com/embed/1aaTUQayYgI?rel=0" frameborder="0"></iframe>
+<iframe title="YouTube video player" class="youtube-player" type="text/html" width="640" height="510" src="//www.youtube.com/embed/1aaTUQayYgI?rel=0" frameborder="0"></iframe>
 
 [^1]: http://www.johnsphones.com/about/specifications/item49

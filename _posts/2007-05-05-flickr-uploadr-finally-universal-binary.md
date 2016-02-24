@@ -4,6 +4,8 @@ category: flickr
 tumblr_id: 1133086074  
 date: 2007-05-05 10:24:47 UTC
 title: Flickr Uploadr finally Universal Binary
+redirect_from: ["/2007/05/05/flickr-uploadr-finally-universal-binary.html"]
+
 ---
 
 Flickrs' fabulous uploading tool <a href="http://www.flickr.com/tools/">Uploadr</a> has, finally, been updated and now runs fast like hell on Intel-macs. Besides being a hybrid binary, some features has been added. For example image safety and type of image (photo, screenshot, etc).

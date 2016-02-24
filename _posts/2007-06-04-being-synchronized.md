@@ -4,6 +4,8 @@ categories: [life, synchronisation, productiveness, sync]
 tumblr_id: 1133086411  
 date: 2007-06-04 15:10:32 UTC
 title: Being synchronized
+redirect_from: ["/2007/06/04/being-synchronized.html"]
+
 ---
 
 I have three computers which I need to have in sync; my Mac Pro at work, my stationary iMac at home and the portable MacBook. Except from those excellent tools of the 21:st century, I also have my cellphone which address book needs to be synchronized.

@@ -6,9 +6,11 @@ layout: post
 tags: programming
 category: languages
 comments: yes
+redirect_from: ["/2013/01/01/1950s-called-wanted-toolbox-back.html"]
+
 ---
 
-<img src="http://farm9.staticflickr.com/8358/8336375923_9f0dca4da9_o.png" width="50%" align="right">Your favourite fancy-pants modern programming language is from the 1950s.
+<img src="//farm9.staticflickr.com/8358/8336375923_9f0dca4da9_o.png" width="50%" align="right">Your favourite fancy-pants modern programming language is from the 1950s.
 
 Pretty much any programming language used today is [a derivative](http://www.levenez.com/lang/) of [Fortran](http://en.wikipedia.org/wiki/Fortran) or [Lisp](http://en.wikipedia.org/wiki/Lisp_%28programming_language%29), both born in the 1950s. Okay, reality check: It's 2013—yes, 60 years later—and we have cars that drive themselves on the street, robots roaming the surface of alien planets and tiny networked devices with interactive surfaces that we keep in our pockets, which are orders of magnitude more powerful than the computers of the 1950s.
 
@@ -42,7 +44,7 @@ So it all comes down to [Human-Computer Interaction](http://en.wikipedia.org/wik
 
 A good example is the car. If you owned a car in the 1800s you would know how to maintain that car. You would know how the engine operated, and you would be able to diagnose and fix problems. Today you simply press a button to start or stop the car. Open up the engine compartment hood of a modern car and you will probably just see a large flat surface with a logotype on it — the heart of the car has become irrelevant knowledge for most car operators like yourself.
 
-<img src="http://farm9.staticflickr.com/8491/8336375797_bea36eb333_o.png" width="30%" align="right">The car of the 1800s would not be a very useful tool in today's measures as it would likely break down during short trips, would not go very fast and was expensive to produce and operate. The car of today is an extremely able tool which extends your ability of transportation both in terms of time (speed), comfort, distance and freight. We have refined our tools (hammers and screwdrivers replaced by robotic specialised factories and lasers) by applying the process of interface abstraction to in order to make the human able to do more using less cognitive effort. They year of 2012 even brought us street-legal [cars which drives themselves](http://newsfeed.time.com/2012/09/26/speeding-into-the-future-self-driving-cars-are-now-legal-in-california/) — a step further in the progress of abstraction, enabling us not only to transport ourselves long distances in comfort, but also free up time for other tasks (i.e. while the car is driving.)
+<img src="//farm9.staticflickr.com/8491/8336375797_bea36eb333_o.png" width="30%" align="right">The car of the 1800s would not be a very useful tool in today's measures as it would likely break down during short trips, would not go very fast and was expensive to produce and operate. The car of today is an extremely able tool which extends your ability of transportation both in terms of time (speed), comfort, distance and freight. We have refined our tools (hammers and screwdrivers replaced by robotic specialised factories and lasers) by applying the process of interface abstraction to in order to make the human able to do more using less cognitive effort. They year of 2012 even brought us street-legal [cars which drives themselves](http://newsfeed.time.com/2012/09/26/speeding-into-the-future-self-driving-cars-are-now-legal-in-california/) — a step further in the progress of abstraction, enabling us not only to transport ourselves long distances in comfort, but also free up time for other tasks (i.e. while the car is driving.)
 
 The field of programming need to see a renaissance in fundamental reinvention, just as it did in the 1950s when programming machines using levers and buttons was replaced by programming machines using textual sequences of computer commands.
 
@@ -68,7 +70,7 @@ As early as 1963 was alternative human-computer interaction hardware with potent
 
 Below here is a video of [Alan Kay](http://en.wikipedia.org/wiki/Alan_Kay)'s famous talk ["Doing with Images Makes Symbols"](http://archive.org/details/AlanKeyD1987) from 1987 in which we see both Sketchpad and GrAIL (another early graphical programming environment from 1968) in action:
 
-<iframe src="http://archive.org/embed/AlanKeyD1987" width="640" height="480" frameborder="0" allowFullScreen></iframe><br>
+<iframe src="//archive.org/embed/AlanKeyD1987" width="640" height="480" frameborder="0" allowFullScreen></iframe><br>
 <small><em>Sketchpad segment start at 04:00. GrAIL segment starts at at 24:10.</em></small>
 
 Not only was Sketchpad the first ever stylus input device, but also pioneered graphical windows and object-oriented programming. The computer it ran on was large enough to have it's own roof and had a total memory of 460 kilobytes (a small photo from your smartphone is likely to be 2-4 times *larger* that the entire memory of this machine), and the processor could perform 400 000  instructions per second. Your average smartphone today can perform around 4 000 000 000 instructions per second (per core) — that means that what's in your pocket today is not only extremely small in comparison to the giant computer Sketchpad was running on in 1963, but is also 10 000 times more powerful.

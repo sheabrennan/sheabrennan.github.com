@@ -4,6 +4,8 @@ categories: [timeline, visualization, aggregation, hunch]
 tumblr_id: 1121196449  
 date: 2008-09-07 20:05:50 UTC
 title: Hunch Timeline
+redirect_from: ["/2008/09/07/hunch-timeline.html"]
+
 ---
 
 <a href="/attachments/2008/09/hunch-aggregator-timeline.png"><img src="/attachments/2008/09/hunch-aggregator-timeline-500.png" alt="" title="hunch-aggregator-timeline-500" width="500" height="325" class="alignnone size-full wp-image-715" /></a>

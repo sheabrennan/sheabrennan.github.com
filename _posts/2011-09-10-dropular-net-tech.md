@@ -3,9 +3,11 @@ title: Designing a modern web-based application — Dropular.net
 layout: post
 tags: dropular, programming
 fb_comments: 25
+redirect_from: ["/2011/09/10/dropular-net-tech.html"]
+
 ---
 
-<img src="http://farm7.static.flickr.com/6191/6134324977_eca6c1f6e0_o.png" width="32" height="32" align="right">[One and a half years ago](http://rsms.me/2010/04/21/dropular-released.html) me and [Andreas](http://suprb.com/) released a new version of [dropular.net](http://dropular.net/) — a new kind of web app that runs completely in the browser. Today, this approach to designing web-based applications running client-side has become popular, so I thought I'd share some of the issues, approaches and design choices made during the development of Dropular.
+<img src="//farm7.static.flickr.com/6191/6134324977_eca6c1f6e0_o.png" width="32" height="32" align="right">[One and a half years ago](http://rsms.me/2010/04/21/dropular-released.html) me and [Andreas](http://suprb.com/) released a new version of [dropular.net](http://dropular.net/) — a new kind of web app that runs completely in the browser. Today, this approach to designing web-based applications running client-side has become popular, so I thought I'd share some of the issues, approaches and design choices made during the development of Dropular.
 
 I designed Dropular just as I would design a desktop application — the UI and related logic runs on the host computer (client). The host knows how to present a GUI and the host knows about user input, end-user's environment state and so on, making UI code running on the client-side the natural choice. Then again, there's always data. Dropular.net communicates with one or more backend *access points* to read and write data, verify authentication and so on.
 
@@ -15,7 +17,7 @@ Basically, we serve only data from the access point and run almost all code in t
 
 When a client visits dropular.net, three files are sent as the response: *index.html*, *index.css* and *index.js* — view, layout and logic, respectively.
 
-[<img src="http://farm7.static.flickr.com/6171/6134847226_c3ae438acc_t.jpg" align="right">](http://farm7.static.flickr.com/6171/6134847226_a0cf033b1e_o.png) If you view the source of any of these files you might notice that the code looks suspiciously computer generated. That's because it *is* computer generated. As part of Dropular, I wrote a web-app client-server kit dubbed *[oui](https://github.com/rsms/oui)* which given a source tree compiles and produces a runnable index.html file (together with an index.js and index.css file).
+[<img src="//farm7.static.flickr.com/6171/6134847226_c3ae438acc_t.jpg" align="right">](http://farm7.static.flickr.com/6171/6134847226_a0cf033b1e_o.png) If you view the source of any of these files you might notice that the code looks suspiciously computer generated. That's because it *is* computer generated. As part of Dropular, I wrote a web-app client-server kit dubbed *[oui](https://github.com/rsms/oui)* which given a source tree compiles and produces a runnable index.html file (together with an index.js and index.css file).
 
 Oui provides a CommonJS module interface and [groups together LESS/CSS, JS and HTML into logical modules](http://farm5.static.flickr.com/4082/4864279573_305cc9499d_o.png) which are name-spaced.
 
@@ -29,7 +31,7 @@ Now, here's a redacted snapshot of the Dropular source code: [https://github.com
 
 ## Authentication
 
-<img src="http://farm7.static.flickr.com/6208/6138547704_ef376ccd13_o.png" width="32" height="32" alt="auth" align="left">In a model where the logic lives in the client, security is a different nut to crack. You need to deal with automatic re-authentication, network reconnection, server fade-over, etc.
+<img src="//farm7.static.flickr.com/6208/6138547704_ef376ccd13_o.png" width="32" height="32" alt="auth" align="left">In a model where the logic lives in the client, security is a different nut to crack. You need to deal with automatic re-authentication, network reconnection, server fade-over, etc.
 
 Authentication is performed in a two-step process, allowing an intermediate representation to be cached in the client, enabling automatic fail-over to other access points and automatic login when later visiting the site.
 
@@ -91,7 +93,7 @@ Since [Step 3], point 4 and forward does not require user input, re-authenticati
 
 ## User interface
 
-<img src="http://farm7.static.flickr.com/6159/6138217565_6a450bb8d8_o.png" width="128" height="128" alt="Layout" align="right">Since the user interface is created, rendered and maintained solely by the client (i.e. web browser), there needs to be some structure. The HTML DOM is actually a great view representation and in combination with CSS gives you control of each pixel on the screen, and at the same provides a nice separation between view structure and layout. However, these kinds of websites tend to have many different "screens", or view states if you will, quickly making your regular HTML and CSS code a freaking mess.
+<img src="//farm7.static.flickr.com/6159/6138217565_6a450bb8d8_o.png" width="128" height="128" alt="Layout" align="right">Since the user interface is created, rendered and maintained solely by the client (i.e. web browser), there needs to be some structure. The HTML DOM is actually a great view representation and in combination with CSS gives you control of each pixel on the screen, and at the same provides a nice separation between view structure and layout. However, these kinds of websites tend to have many different "screens", or view states if you will, quickly making your regular HTML and CSS code a freaking mess.
 
 What we did was to have a mind set as if we where writing a desktop application — we define logical components in folders and files that reflect the structure of these components. We then *process*, or *compile*, these sources into machine-and-network optimized code (HTML, CSS & JavaScript), just like you do with "regular" software development.
 
@@ -136,7 +138,7 @@ Some module logic (e.g. JavaScript code) then clone appropriate parts of its tem
 
 ## Data storage and the problem of many-to-many
 
-<img src="http://farm7.static.flickr.com/6065/6139582408_447a0c7b53_o.png" width="128" height="128" alt="data" align="right">Since we have a very clean separation of data and presentation, [CouchDB](http://couchdb.apache.org/) made a lot of sense to us. In [CouchDB](http://couchdb.apache.org/), data is represented by logical structured blobs called "documents" — basically it's a key-to-JSON store.
+<img src="//farm7.static.flickr.com/6065/6139582408_447a0c7b53_o.png" width="128" height="128" alt="data" align="right">Since we have a very clean separation of data and presentation, [CouchDB](http://couchdb.apache.org/) made a lot of sense to us. In [CouchDB](http://couchdb.apache.org/), data is represented by logical structured blobs called "documents" — basically it's a key-to-JSON store.
 
 Dropular.net has a feature where you can follow any number of other users and look at a feed of images created by all those users. In data terms, this is a many-to-many relationship which when using a RDBMS like MySQL is expensive (computational wise). With [CouchDB](http://couchdb.apache.org/) on the other hand, many-to-many relationships are very easy to define and they are cheap to maintain!
 

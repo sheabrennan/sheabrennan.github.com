@@ -4,6 +4,8 @@ categories: [essay, web, hunch, python, aggregation, php, software]
 tumblr_id: 1121196228  
 date: 2008-08-14 17:19:44 UTC
 title: Hunch Aggregator
+redirect_from: ["/2008/08/14/hunch-aggregator.html"]
+
 ---
 
 <a href="/attachments/2008/08/hunch-aggregator-ui.png"><img src="/attachments/2008/08/hunch-aggregator-ui-small.png" alt="" title="hunch-aggregator-ui-small" width="500" height="224" class="alignnone size-full wp-image-641" /></a>

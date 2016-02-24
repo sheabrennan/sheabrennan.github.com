@@ -4,9 +4,11 @@ categories: [spotify, plamere, office, sun]
 tumblr_id: 1133086445  
 date: 2007-06-05 11:36:10 UTC
 title: Lameres' view of Music 2.0 Offices
+redirect_from: ["/2007/06/05/lameres-view-of-music-20-offices.html"]
+
 ---
 
-<a href="http://www.flickr.com/photos/rsms/484869436/"><img src="http://farm1.static.flickr.com/210/484869436_90af33af55.jpg" alt="Picture of the Spotify Office" class="alignnone" /></a>
+<a href="http://www.flickr.com/photos/rsms/484869436/"><img src="https://farm1.static.flickr.com/210/484869436_90af33af55.jpg" alt="Picture of the Spotify Office" class="alignnone" /></a>
 
 <a href="http://blogs.sun.com/plamere/">Paul Lamere</a> lists <em>Offices of Music 2.0</em> and of course <a href="http://blogs.sun.com/plamere/entry/offices_of_music_2_02">he mentions our office</a>.
 

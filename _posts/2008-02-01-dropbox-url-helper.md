@@ -4,6 +4,8 @@ categories: [utility, dropbox, productive, helper, osx]
 tumblr_id: 1111976106  
 date: 2008-02-01 10:22:31 UTC
 title: Dropbox URL helper
+redirect_from: ["/2008/02/01/dropbox-url-helper.html"]
+
 ---
 
 <embed type="video/quicktime" scale="aspect" src="/attachments/2008/02/finder001.mov" width="300" height="206" pluginspage="http://www.apple.com/quicktime/download/" autoplay="false" controller="true" style="float:right;clear:right;margin-left:2em;margin-bottom:2em"></embed>I communicate a lot using files. Images, videos, screencaps, pdfs, etc - and there's <em>always</em> problems sharing files over techniques like instant messaging, e-mail, etc.

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Why the OS X Menubar should be dark and not bright  
+redirect_from: ["/2011/02/06/osx-menubar-should-be-dark.html"]
+
 ---
 
 The OS X Menubar is that light-grey thing stuck to the upper edge of the screen. It's stationary (with the exception for "fullscreen" modes) and thus is always visible. The Menubar is one of the core concepts of OS X's UX which I really appreciate and which makes it hard to use OS'es which have one menu bar for each window.
@@ -9,7 +11,7 @@ The OS X Menubar is that light-grey thing stuck to the upper edge of the screen.
 
 Anyhow, the thing is always there and it's bright. So what?
 
-<img src="http://farm6.static.flickr.com/5252/5421633006_7982385468_t.jpg" title="Illustration of additive color mixing" align="right">Computer screens follow the so called [additive color mixing rules](http://en.wikipedia.org/wiki/Additive_color) (technically ["optical mixing"](http://books.google.com/books?id=ptpXbW1NaeMC&pg=PA15&lpg=PA15&dq=optical+mixing+color+computer+screen&source=bl&ots=TBy_jrrCd9&sig=cBDjvhXFJ7keiZ5UuIj6j_1-nSg&hl=en&ei=KqROTfT6G4aCOrCUyBw&sa=X&oi=book_result&ct=result&resnum=6&ved=0CDsQ6AEwBQ), but the concepts are the same) where adding more color and intensity creates a brighter color. Mixing all colors (reg, green and blue) with maximum intensity yields the color white while "not using any colors" yields the color black.
+<img src="//farm6.static.flickr.com/5252/5421633006_7982385468_t.jpg" title="Illustration of additive color mixing" align="right">Computer screens follow the so called [additive color mixing rules](http://en.wikipedia.org/wiki/Additive_color) (technically ["optical mixing"](http://books.google.com/books?id=ptpXbW1NaeMC&pg=PA15&lpg=PA15&dq=optical+mixing+color+computer+screen&source=bl&ots=TBy_jrrCd9&sig=cBDjvhXFJ7keiZ5UuIj6j_1-nSg&hl=en&ei=KqROTfT6G4aCOrCUyBw&sa=X&oi=book_result&ct=result&resnum=6&ved=0CDsQ6AEwBQ), but the concepts are the same) where adding more color and intensity creates a brighter color. Mixing all colors (reg, green and blue) with maximum intensity yields the color white while "not using any colors" yields the color black.
 
 What this means is basically that black on a computer screen is the most calm and low-intensity color while white is the most vibrant and intense color possible. From a purely logical perspective, computer software should be white text on dark background, but in reality that sort of mixture often induce a dull and "technical" feeling. Everything is in balance thus IMHO the key lies in not over-using white nor black. There are many more aspects to this discussion, like actual and perceived contrast when using different mixes of white/black or black/white, but we'll save that for another day.
 

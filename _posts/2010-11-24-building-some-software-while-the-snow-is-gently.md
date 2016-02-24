@@ -5,6 +5,8 @@ tumblr_id: 1669339986
 date: 2010-11-24 13:44:00 UTC
 title: The snow is gently falling
 photo_url: http://farm6.static.flickr.com/5286/5382666861_2bfdc1a8f7_z.jpg
+redirect_from: ["/2010/11/24/building-some-software-while-the-snow-is-gently.html"]
+
 ---
 
 [![Photo](http://farm6.static.flickr.com/5286/5382666861_2bfdc1a8f7_z.jpg)](http://instagr.am/p/WXG2/)

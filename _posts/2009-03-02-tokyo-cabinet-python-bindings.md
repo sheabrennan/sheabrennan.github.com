@@ -4,6 +4,8 @@ categories: [python, code, dbm, tokyocabinet, software]
 tumblr_id: 1102106108  
 date: 2009-03-02 09:48:00 UTC
 title: Tokyo Cabinet Python bindings
+redirect_from: ["/2009/03/02/tokyo-cabinet-python-bindings.html"]
+
 ---
 
 Today I released <a href="http://github.com/rsms/tc">tc</a> – Python bindings to the <a href="http://tokyocabinet.sourceforge.net/index.html">Tokyo Cabinet</a> database library. The code is heavily based on that of Tasuku Suenagas <a href="http://coderepos.org/share/wiki/PyTC">pytc</a> and improves in many ways (documentation, code structure, python 2.6 and 3.0 compatibility, robust setup.py, etc).

@@ -3,11 +3,13 @@ title: A template for setting up Node.js-backed web apps on EC2
 layout: post
 tags: ec2
 fb_comments: 25
+redirect_from: ["/2011/03/23/ec2-wep-app-template.html"]
+
 ---
 
 Quick web hacks are great fun — getting an idea, realizing it and publishing it during a day or three. What usually sucks the fun out of these things—when building websites—is the whole "server setup" dance. You need to fix access to a server, install an operating system, registering a domain name, configure software, etc.
 
-<img src="http://farm6.static.flickr.com/5057/5552354201_b2479af203_o.png" align="right" width="273" height="222">I've become quite fond of the [Amazon Elastic Compute Cloud (EC2)](http://aws.amazon.com/ec2/) — a widely popular service for creating virtual servers. So I've found myself repeating practically the same steps for every site launched on EC2 ([dropular.net](http://dropular.net/) and [spotni.cc](http://spotni.cc/), for instance). This is something I think many people could benefit from, so I've put together a sort of template for quickly setting up a web site on EC2:
+<img src="//farm6.static.flickr.com/5057/5552354201_b2479af203_o.png" align="right" width="273" height="222">I've become quite fond of the [Amazon Elastic Compute Cloud (EC2)](http://aws.amazon.com/ec2/) — a widely popular service for creating virtual servers. So I've found myself repeating practically the same steps for every site launched on EC2 ([dropular.net](http://dropular.net/) and [spotni.cc](http://spotni.cc/), for instance). This is something I think many people could benefit from, so I've put together a sort of template for quickly setting up a web site on EC2:
 
 [https://github.com/rsms/ec2-webapp](https://github.com/rsms/ec2-webapp)
 
@@ -86,7 +88,7 @@ Then continue to the next step where we will "Create a new Security Group". Name
 
 Click our favorite "Continue" button and you should get a summary of your configuration. Review the details and when feeling like a happy little puppy, press firmly on the "Launch" button.
 
-![](http://farm6.static.flickr.com/5066/5552874246_50d5dae933_z.jpg)
+![](//farm6.static.flickr.com/5066/5552874246_50d5dae933_z.jpg)
 
 Your instance will start to launch. Close the "wizard", wait a few seconds and you should see something like this (select your instance in the list if the bottom part is empty):
 

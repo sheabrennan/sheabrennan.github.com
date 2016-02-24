@@ -4,6 +4,8 @@ categories: [photographer, photography, documentary, jeff mermelstein, portrait]
 tumblr_id: 1133086849  
 date: 2007-08-01 22:46:05 UTC
 title: Short documentary on photographer Jeff Mermelstein
+redirect_from: ["/2007/08/01/short-documentary-on-photographer-jeff-mermelstein.html"]
+
 ---
 
 Part 1/3

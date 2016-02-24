@@ -4,6 +4,8 @@ categories: [business cards, offline, design]
 tumblr_id: 1121196987  
 date: 2008-10-29 18:44:07 UTC
 title: The designers' standard wet dream
+redirect_from: ["/2008/10/29/the-designers-standard-wet-dream.html"]
+
 ---
 
 Business cards – a channel for wild creativity.

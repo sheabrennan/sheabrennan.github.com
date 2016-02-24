@@ -4,6 +4,8 @@ categories: [programming, cocoa, unicode, kod]
 tumblr_id: 1691630898  
 date: 2010-11-26 15:48:00 UTC
 title: Mapped UTF-8 → UTF-16 range lookups FTW
+redirect_from: ["/2010/11/26/mapped-utf-8-utf-16-range-lookups-ftw.html"]
+
 ---
 
 I'm writing [a little OS X app](http://kodapp.com/) which among other things highlight source code. To avoid re-inventing the wheel I'm using [GNU Source-highlight][][^1] to tokenize the input data. However, [GNU Source-highlight][] only accept UTF-8 and Cocoa strings are UTF-16 so conversion is needed, which can be quite expensive.
@@ -17,7 +19,7 @@ My first implementation did something like this when an editing occurred and hig
 
 Highlighting the source of <http://hunch.se/stuff/> took a blazing **10 seconds** when compiled with optimizations and auto-vectorization. Not even near OK.
 
-[![](http://farm5.static.flickr.com/4103/5208847545_ed08fb23c4_o.png)](http://farm5.static.flickr.com/4103/5208847545_ed08fb23c4_o.png)
+[![](//farm5.static.flickr.com/4103/5208847545_ed08fb23c4_o.png)](http://farm5.static.flickr.com/4103/5208847545_ed08fb23c4_o.png)
 
 Any programmer -- mathematician or not -- realize the high complexity of this algorithm. For each time we find a new token, iterate over the UTF-8 part of that edit and build a new range by considering UTF-8 bytes. A few simple optimizations (like [avoiding repeated constant calculations](https://gist.github.com/716830)) brought the time down to about 3.5 seconds for the same test case.
 
@@ -25,7 +27,7 @@ So I went to the theatre to see a play with a friend and clear my head. This mor
 
 After about 2 hours worth of googling, reading the [ICU API](http://icu-project.org/apiref/icu4c/), scrubbing Apple dev docs and almost desperately querying [Codesearch](http://codesearch.google.com/) I gave up and rolled my own implementation. For my use case, the result was a **14x real speed increase** -- the same test which earlier took 10 seconds now only took 0.7 seconds (which given the particular test case is good). Note that most of the 700 ms is spent on waiting for stupid kernel-calling locks, only ~250 ms worth of user+system cycles is actually used.
 
-[![](http://farm5.static.flickr.com/4148/5209445618_65da8a77b8_o.png)](http://farm5.static.flickr.com/4148/5209445618_65da8a77b8_o.png)
+[![](//farm5.static.flickr.com/4148/5209445618_65da8a77b8_o.png)](http://farm5.static.flickr.com/4148/5209445618_65da8a77b8_o.png)
 
 What I did was to convert UTF-16 into UTF-8 *and build a look-up table at the same time*. Now what takes time is the damn kernel-calling spin lock which is used by the Cocoa NSView hierarchy and boost (used by [GNU Source-highlight][] for regexp). Don't mind the "objc_msgSend" in the Instrument screenshot above as it represents the sum of Objective-C overhead for _all cocoa calls_.
 

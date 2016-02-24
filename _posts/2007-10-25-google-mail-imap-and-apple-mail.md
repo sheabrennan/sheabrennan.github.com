@@ -4,6 +4,8 @@ categories: [google, work, functional, sought-after, connectivity, mail, imap, g
 tumblr_id: 1133087113  
 date: 2007-10-25 09:32:26 UTC
 title: Google Mail, IMAP and Apple Mail
+redirect_from: ["/2007/10/25/google-mail-imap-and-apple-mail.html"]
+
 ---
 
 <a class="right" href='/attachments/2007/10/picture-15.png' title='Gmail IMAP'><img src='/attachments/2007/10/picture-15.thumbnail.png' alt='Gmail IMAP' /></a>Yesterday Google premiered IMAP connectivity for their mail platform Google Mail. It turned out pretty good but far from perfect.

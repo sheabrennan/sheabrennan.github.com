@@ -3,6 +3,8 @@ title: February 24, 1955 – October 5, 2011
 layout: post
 tags: apple, stevejobs
 fb_comments: 25
+redirect_from: ["/2011/10/05/steve-jobs.html"]
+
 ---
 
 ## Here’s to the crazy ones

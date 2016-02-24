@@ -4,9 +4,11 @@ categories: [release, spotify]
 tumblr_id: 1121196764  
 date: 2008-10-07 06:09:44 UTC
 title: Spotify Official Release
+redirect_from: ["/2008/10/07/spotify-official-release.html"]
+
 ---
 
-<object width="500" height="281"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=1900024&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=5dcd12&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=1900024&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=5dcd12&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="500" height="281"></embed></object>
+<object width="500" height="281"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=1900024&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=5dcd12&amp;fullscreen=1" /><embed src="//vimeo.com/moogaloop.swf?clip_id=1900024&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=5dcd12&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="500" height="281"></embed></object>
 
 <a href="http://www.spotify.com/"><img src="/attachments/2008/10/spotify-logo-web-96x96-pos-tagline.png" alt="Spotify" width="96" height="112" class="size-full wp-image-796 alignright" /></a>This is what I've been working on for the last two years.
 

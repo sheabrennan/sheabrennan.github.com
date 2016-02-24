@@ -7,10 +7,10 @@
     {% if page.title != "Archive (sidebar)" %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% endif %}
-    <!-- <link href='http://fonts.googleapis.com/css?family=Poly:400' rel='stylesheet' type='text/css'> -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400' rel='stylesheet' type='text/css'>
+    <!-- <link href='//fonts.googleapis.com/css?family=Poly:400' rel='stylesheet' type='text/css'> -->
+    <link href='//fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:300,400' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" media="screen, projection" href="/res/screen.css" type="text/css">
     <link rel="stylesheet" media="print" href="/res/print.css" type="text/css">
     <link rel="alternate" type="application/atom+xml" title="Rasmus Andersson" href="/atom.xml">
@@ -45,7 +45,7 @@
     <meta property="og:image" content="{{ page.photo_url }}">
     {% endif %}
     {% endif %}
-    <meta property="og:url" content="http://rsms.me{{ page.url | remove_first:'index.html' }}">
+    <meta property="og:url" content="https://rsms.me{{ page.url | remove_first:'index.html' }}">
     <meta property="og:site_name" content="rsms.me">
     <meta property="og:type" content="article">
     <meta property="og:locale" content="en_GB" />
@@ -55,24 +55,6 @@
     <script>window.initFuncs = [];</script>
   </head>
   <body{% if page.wide_layout %} class="wide"{% endif %}>
-    <!--script>/*
-      var s;
-      if (document.location.hostname === 'rsms.me') {
-        s = document.createElement('script');
-        s.async = true;
-        s.src = "http://connect.facebook.net/en_US/all.js#appId=38027689216&xfbml=1";
-        document.getElementsByTagName('head')[0].appendChild(s);
-      }
-      
-      if (window.navigator.userAgent.indexOf('iPad') != -1) {
-        document.documentElement.className = 'ios ipad';
-        window.rsmsHostIsIOS = 'ipad';
-      } else if (window.navigator.userAgent.indexOf('iPhone') != -1) {
-        document.documentElement.className = 'ios iphone';
-        window.rsmsHostIsIOS = 'iphone';
-      }
-    */</script>
-    <div id="fb-root"></div><script></script-->
     <header>
       <h1 class="logo" onclick="document.location.href='/';"><a href="/"><img src="/res/signature-2-2.png" width="160" height="50" alt="Signature"></a></h1>
       <ul class="navigation">
@@ -89,7 +71,7 @@
     {% if page.fb_comments or page.comments %}
     <!--div class="content sub">
       <h2 id="comments">Comments</h2>
-      <div class="fb-comments" data-href="http://rsms.me{{ page.url }}" data-num-posts="{{ page.fb_comments }}" data-width="550" data-font="arial"></div>
+      <div class="fb-comments" data-href="//rsms.me{{ page.url }}" data-num-posts="{{ page.fb_comments }}" data-width="550" data-font="arial"></div>
     </div-->
     {% endif %}
     

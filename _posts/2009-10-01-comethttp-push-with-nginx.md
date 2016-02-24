@@ -4,6 +4,8 @@ categories: [http, nginx, push, comet, software, pubsub]
 tumblr_id: 1102105581  
 date: 2009-10-01 23:06:00 UTC
 title: Comet/HTTP push with nginx
+redirect_from: ["/2009/10/01/comethttp-push-with-nginx.html"]
+
 ---
 
 One of the most cumbersome problems of implementing some kind of HTTP push a.k.a. <a href="http://en.wikipedia.org/wiki/Comet_(programming)">Comet</a> functionality is that the client (website) need to be served from the same host and on the same port as the actual push (long-polling or multipart response) mechanism. Now, as we need to maintain a high number of concurrent client connections we can <em>not</em> use traditional server-side applications like PHP or Ruby on Rails. Using PHP for instance would require one PHP process per client connection -- the main memory would quickly become saturated and we'll most likely hit some scary limit of fds and processes the kernel handles without being a sad little kernel.
@@ -43,7 +45,7 @@ Then yesterday I stumbled upon <a href="http://wiki.nginx.org/NginxHttpPushModul
 
 Never write software without a real-life context. To honour that sentence (I just made up) I wrote a simple Cocoa (OS X) application which grabs an image from my laptops camera, POSTs it to a PHP script which saves it to disk and then the Cocoa app publishes the newly created image's URL to a NginxHttpPushModule channel. In the other end there is a ridiculously simple HTML client (<a href="http://jquery.com/">jQuery</a> and <a href="http://en.wikipedia.org/wiki/XMLHttpRequest">XHR</a>) which listens to the same channel and when receiving (JSON) from the camera app, updates an image. Here's a video of the thing, running on a live remote server.
 
-<object width="600" height="400"><param name="movie" value="http://www.youtube.com/v/nMce-ILjSSs&hl=en&fs=1&rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/nMce-ILjSSs&hl=en&fs=1&rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="400"></embed></object>
+<object width="600" height="400"><param name="movie" value="http://www.youtube.com/v/nMce-ILjSSs&hl=en&fs=1&rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/nMce-ILjSSs&hl=en&fs=1&rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="400"></embed></object>
 
 I thew in old dirty Internet Explorer 6 just for kicks. Note that 95% of the delay is caused by uploading the photo over my slow connection at home -- the publishing and propagation is faster then both Batman and the Phantom.
 

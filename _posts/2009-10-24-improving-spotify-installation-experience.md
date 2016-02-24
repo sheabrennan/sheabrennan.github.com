@@ -4,6 +4,8 @@ categories: [spotify, mac, ux, software]
 tumblr_id: 1102105108  
 date: 2009-10-24 12:10:44 UTC
 title: Improving the Spotify installation experience
+redirect_from: ["/2009/10/24/improving-spotify-installation-experience.html"]
+
 ---
 
 At the time of writing this, we distribute [Spotify for Mac OS X](http://www.spotify.com/download/mac/) as a regular DMG (disk image). The user experience is not really what I would call smooth:
@@ -20,7 +22,7 @@ Our solution is to use an *[internet-enabled](http://developer.apple.com/mac/lib
 
 ## The new Spotify installation experience
 
-<img src="http://farm3.static.flickr.com/2472/4038969017_62e3d63669_o.png" width="250" alt="Screenshot of the Downloads window in Safari" align="right">
+<img src="//farm3.static.flickr.com/2472/4038969017_62e3d63669_o.png" width="250" alt="Screenshot of the Downloads window in Safari" align="right">
 
 1. Initiate the Spotify download.
 2. When download completes, Safari will unpack the disk image, 
@@ -33,7 +35,7 @@ Our solution is to use an *[internet-enabled](http://developer.apple.com/mac/lib
 
 The user double-clicks the icon -- Spotify launches and detects it's running from the Downloads folder, asking the user if Spotify should move itself into the Applications folder.
 
-<img src="http://farm4.static.flickr.com/3505/4038968837_61f1fde485_o.png" width="554" height="245" alt="Screenshot of the Move to Applications dialog" class="center">
+<img src="//farm4.static.flickr.com/3505/4038968837_61f1fde485_o.png" width="554" height="245" alt="Screenshot of the Move to Applications dialog" class="center">
 
 Selecting "Move to Application folder" causes Spotify to automatically move itself into `/Applications` (or `~/Applications` if it exists) while still running.
 
@@ -48,7 +50,7 @@ Well, we need to handle that case too, of course. [We created a version of Lets 
 
 Manually mounting the Spotify DMG will look like this:
 
-<img src="http://farm4.static.flickr.com/3064/4038968917_606f616863_o.png" width="580" height="402" alt="Screenshot of the new Spotify disk image while mounted" class="center">
+<img src="//farm4.static.flickr.com/3064/4038968917_606f616863_o.png" width="580" height="402" alt="Screenshot of the new Spotify disk image while mounted" class="center">
 
 Double-clicking the app will show the same "Move to Applications folder?" dialog.
 
@@ -61,4 +63,4 @@ We have published our modified version of LetsMove here: [http://github.com/rsms
 
 For the record, this is how the previous Spotify disk image looked like:
 
-<img src="http://farm3.static.flickr.com/2564/4038968767_706240b9ae_o.png" width="580" height="402" alt="Screenshot of the previous Spotify disk image" class="center">
+<img src="//farm3.static.flickr.com/2564/4038968767_706240b9ae_o.png" width="580" height="402" alt="Screenshot of the previous Spotify disk image" class="center">

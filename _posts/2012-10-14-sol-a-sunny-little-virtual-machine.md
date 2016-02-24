@@ -6,6 +6,8 @@ layout: post
 tags: programming
 category: languages
 comments: yes
+redirect_from: ["/2012/10/14/sol-a-sunny-little-virtual-machine.html"]
+
 ---
 
 During this weekend, together with a few evenings earlier this week, I created a rather simple [virtual machine](http://en.wikipedia.org/wiki/Virtual_machine) dubbed ["Sol"](https://github.com/rsms/sol), after the Swedish word for "sun". I've read a lot about VM design and I'm into stuff like OS design, programming languages and other seeminlgy obscure and nerdy stuff surrounding the concept of a computer as a generic tool.

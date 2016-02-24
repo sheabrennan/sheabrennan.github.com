@@ -4,6 +4,8 @@ categories: [tumblr, blog]
 tumblr_id: 1135236931  
 date: 2010-09-17 02:21:00 UTC
 title: Hello Tumblr
+redirect_from: ["/2010/09/17/hello-tumblr.html"]
+
 ---
 
 ![Hello Tumblr](http://farm5.static.flickr.com/4091/4997683492_b9ec1aa2d9_o.jpg)

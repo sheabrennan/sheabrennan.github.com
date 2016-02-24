@@ -4,6 +4,8 @@ categories: [functional, visualisation]
 tumblr_id: 1111978447  
 date: 2008-03-20 09:15:11 UTC
 title: All The Time in The World
+redirect_from: ["/2008/03/20/all-the-time-in-the-world.html"]
+
 ---
 
 <a href="http://www.troika.uk.com/alltime.htm"><img src="/attachments/2008/03/all-the-time-in-the-world.jpg" alt="All The Time in The World, at Heathrow airport" /></a>

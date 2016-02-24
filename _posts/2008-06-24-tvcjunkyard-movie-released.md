@@ -4,9 +4,11 @@ categories: [movie, junkyard, skateboard, advertising, tvc]
 tumblr_id: 1121195291  
 date: 2008-06-24 06:54:13 UTC
 title: TVC/Junkyard Movie Released
+redirect_from: ["/2008/06/24/tvcjunkyard-movie-released.html"]
+
 ---
 
-<embed src="http://www.junkyard.se/swf/the_junk_project.swf" width="500" height="302" allowfullscreen="true" />
+<embed src="//www.junkyard.se/swf/the_junk_project.swf" width="500" height="302" allowfullscreen="true" />
 
 <a href="http://www.junkyard.se/?film=the_junk_project">Epic skateboarding</a> shoot in my old <a href="http://en.wikipedia.org/wiki/Trollhättan">hometown</a>, created by the fabulous guys at <a href="http://theviralcompany.se/">The Viral Company</a>.
 

@@ -4,6 +4,8 @@ categories: [conference, spotify, debian]
 tumblr_id: 1133086585  
 date: 2007-06-21 07:34:51 UTC
 title: Debain Day 2007 presents Spotify
+redirect_from: ["/2007/06/21/debain-day-2007-presents-spotify.html"]
+
 ---
 
 Scott Ainslie Sutton reports from DebConf 07 and write about the Spotify presentation during the second Debian Day:

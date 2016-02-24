@@ -5,6 +5,8 @@ tumblr_id: 188121672
 date: 2009-09-15 00:58:00 UTC
 title: Time exposure of light tipped rotor blades
 
+redirect_from: ["/2009/09/15/time-exposure-of-the-light-tipped-rotor-blades-of.html"]
+
 ---
 
 ![Photo](http://farm6.static.flickr.com/5124/5382661473_8e39417bc3_o.jpg)

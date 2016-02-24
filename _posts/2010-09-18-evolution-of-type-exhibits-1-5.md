@@ -5,6 +5,8 @@ tumblr_id: 1145923128
 date: 2010-09-18 22:58:57 UTC
 title: Evolution of Type, Exhibits 1-5
 description: "“Evolution of Type, Exhibits 1-5” by Andreas Scheiger."
+redirect_from: ["/2010/09/18/evolution-of-type-exhibits-1-5.html"]
+
 ---
 
 [![Evolution of Type, Exhibits 1-5](http://farm5.static.flickr.com/4087/5002698688_5b4f4125f9_b.jpg)](http://www.behance.net/gallery/Evolution-of-Type-Exhibits-1-5/690478)

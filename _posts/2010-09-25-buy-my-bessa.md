@@ -4,6 +4,8 @@ categories: [photography, sale, camera]
 tumblr_id: 1185618753  
 date: 2010-09-25 16:24:00 UTC
 title: Buy my Bessa
+redirect_from: ["/2010/09/25/buy-my-bessa.html"]
+
 ---
 
 I'm selling one of my best analogue 35mm rangefinder cameras: a mint condition Voigtländer Bessa R4a, including a Ultron 35/1.7 lens. Bought new from the factory in August of 2007.

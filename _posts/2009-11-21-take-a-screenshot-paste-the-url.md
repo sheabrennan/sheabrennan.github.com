@@ -4,9 +4,11 @@ categories: [osx, application, open source, scrup, software]
 tumblr_id: 1102105253  
 date: 2009-11-21 11:39:49 UTC
 title: Take a screenshot, paste the URL
+redirect_from: ["/2009/11/21/take-a-screenshot-paste-the-url.html"]
+
 ---
 
-[<img src="http://farm3.static.flickr.com/2567/4121191747_3002198bb5_o.png" width="251" height="192" alt="Scrup icon" align="right">](http://github.com/rsms/scrup)
+[<img src="//farm3.static.flickr.com/2567/4121191747_3002198bb5_o.png" width="251" height="192" alt="Scrup icon" align="right">](http://github.com/rsms/scrup)
 
 I'm a big fan of integrated non-intrusive, productivity-enhanching applications. One category which is especially useful for me is the automatic publishing of screenshots, making conversations about looks and state so much easier.
 
@@ -21,7 +23,7 @@ Since this functionality is rather trivial I looked around if someone had writte
 
 [Scrup](http://github.com/rsms/scrup) is a simple little OS X application, or system plug-in, which sits in your menu bar:
 
-[<img src="http://farm3.static.flickr.com/2522/4122092624_b2a9450bfe_o.png" width="220" alt="Scrup in the menu bar" align="right" />](http://farm3.static.flickr.com/2522/4122092624_b2a9450bfe_o.png)
+[<img src="//farm3.static.flickr.com/2522/4122092624_b2a9450bfe_o.png" width="220" alt="Scrup in the menu bar" align="right" />](http://farm3.static.flickr.com/2522/4122092624_b2a9450bfe_o.png)
 
 When you take a screenshot, Scrup sends it to a web server of your choice. The web server then do something with the image (saves it, doh!) and returns a URL to the new image. That URL is then placed in your pasteboard, ready to be pasted somewhere. Scrup also keeps a list of the most recent scrups in it's menu, for easy access at a later date.
 
@@ -33,4 +35,4 @@ When you take a screenshot, Scrup sends it to a web server of your choice. The w
 
 ## Demo video
 
-<object width="600" height="365"><param name="movie" value="http://www.youtube.com/v/hSSr3fUScAM&hl=en_US&fs=1&rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/hSSr3fUScAM&hl=en_US&fs=1&rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="365"></embed></object>
+<object width="600" height="365"><param name="movie" value="http://www.youtube.com/v/hSSr3fUScAM&hl=en_US&fs=1&rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/hSSr3fUScAM&hl=en_US&fs=1&rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="365"></embed></object>

@@ -4,6 +4,8 @@ categories: [monospace, typography, inconsolata, terminal, monaco, panic sans]
 tumblr_id: 1133086537  
 date: 2007-06-11 15:23:22 UTC
 title: Monaco, Inconsolata and Panic Sans
+redirect_from: ["/2007/06/11/monaco-inconsolata-and-panic-sans.html"]
+
 ---
 
 <a href='/attachments/2007/06/monaco.png' title='Monaco'><img src='/attachments/2007/06/monaco.thumbnail.png' alt='' /></a> <a href='/attachments/2007/06/inconsolata.png' title='Inconsolata'><img src='/attachments/2007/06/inconsolata.thumbnail.png' alt='' /></a> <a href='/attachments/2007/06/panic-sans.png' title='Panic Sans'><img src='/attachments/2007/06/panic-sans.thumbnail.png' alt='' /></a>

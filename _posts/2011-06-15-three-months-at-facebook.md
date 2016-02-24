@@ -4,6 +4,8 @@ layout: post
 tags: facebook
 fb_comments: 25
 photo_url: http://farm3.static.flickr.com/2111/5821627543_0d25a9079d_z.jpg
+redirect_from: ["/2011/06/15/three-months-at-facebook.html"]
+
 ---
 
 I've now been at [Facebook](http://www.facebook.com/design) in Palo Alto, California for almost three months. And I love it.
@@ -18,7 +20,7 @@ What really blows my mind about this place is how small it feels, yet we are tho
 
 We generally have one product designer and one product manager pair up to form a "mini product team" in each project. This gives me the feeling close to that of a small start-up -- "let's do this together!".
 
-![](http://farm3.static.flickr.com/2111/5821627543_0d25a9079d_z.jpg)
+![](//farm3.static.flickr.com/2111/5821627543_0d25a9079d_z.jpg)
 
 At the end of this year we will be moving into our own little town -- a new totally awesome campus in Menlo Park -- which is currently in it's last stages of construction.
 

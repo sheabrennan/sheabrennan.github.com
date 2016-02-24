@@ -4,9 +4,11 @@ categories: [spotify, iphone, software]
 tumblr_id: 1133604685  
 date: 2009-07-01 00:00:00 UTC
 title: Spotify for the iPhone
+redirect_from: ["/2009/07/01/spotify-for-iphone.html"]
+
 ---
 
-<object width="640" height="385"><param name="movie" value="http://www.youtube-nocookie.com/v/QNCb1IdmJ_0&hl=en&fs=1&rel=0&hd=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube-nocookie.com/v/QNCb1IdmJ_0&hl=en&fs=1&rel=0&hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object>
+<object width="640" height="385"><param name="movie" value="http://www.youtube-nocookie.com/v/QNCb1IdmJ_0&hl=en&fs=1&rel=0&hd=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube-nocookie.com/v/QNCb1IdmJ_0&hl=en&fs=1&rel=0&hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object>
 
 Late last week we put the finishing touches to a very special project we’ve been wanting to share with you for a while now. After many weeks of burning the midnight oil at Spotify HQ in an effort to squeeze into it every drop of musical goodness, we’ve finally completed work on the [Spotify](http://www.spotify.com/) app for the iPhone and sent it over to the nice people at Apple.
 

@@ -6,9 +6,11 @@ layout: post
 tags: facebook, dropbox
 category: career
 comments: yes
+redirect_from: ["/2013/03/21/hello-dropbox.html"]
+
 ---
 
-<img src="http://farm9.staticflickr.com/8225/8580803186_ccf9d4337b_o.png" width="50%" align="right">I'm very excited to let you know that I'm joining [Dropbox](https://www.dropbox.com/).
+<img src="//farm9.staticflickr.com/8225/8580803186_ccf9d4337b_o.png" width="50%" align="right">I'm very excited to let you know that I'm joining [Dropbox](https://www.dropbox.com/).
 
 After two years at Facebook I couldn't be more proud. Proud to have been part of something as important as Facebook and proud of the work I've done with shaping the future of mobile communication. It's truly been a fantastic time of my life — an experience rich of great people, mind-boggling challenges and once-in-a-lifetime experiences.
 
