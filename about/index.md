@@ -1,6 +1,5 @@
 ---
 layout: page
-fb_comments: 3
 title: About
 ---
 
@@ -14,7 +13,7 @@ Hello. My name is Rasmus Andersson. I'm a Swedish maker living in San Francisco 
 Spray, and my own company Notion.
 More information can be found through [LinkedIn](http://www.linkedin.com/in/rasmusandersson).
 
-I work for & ♥ [Dropbox](https://www.dropbox.com/jobs/product/design)
+I currently work at [Figma](https://www.figma.com/) building the next-generation interaction design tool.
 
 - [Read more about my work with Spotify &rarr;](/about/spotify/)
 - [Some of my favorite technical papers &rarr;](https://www.dropbox.com/sh/is0sy5350lr4v9j/AADQlhVSQcRw6vCNKQgGWelqa)
