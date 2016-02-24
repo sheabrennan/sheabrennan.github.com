@@ -9,7 +9,7 @@ redirect_from: ["/2011/03/13/fnews-ipad-facebook-home-display.html"]
 
 This weekend's hack is an iPad app which displays your Facebook news feed in a "photo frame" fashion — large text, automatic, simplistic and suitable for passive viewing.
 
-[![Photo](http://farm6.static.flickr.com/5017/5522785997_b9e2ff887d_z.jpg)](http://rsms.me/projects/fnews/)
+[![Photo](//farm6.static.flickr.com/5017/5522785997_b9e2ff887d_z.jpg)](http://rsms.me/projects/fnews/)
 
 I never really got the iPad (my laptop or smartphone is always around) and have probably used it for about a total of 10 hours, so better make good use of the thing.
 

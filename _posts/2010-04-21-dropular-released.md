@@ -4,7 +4,7 @@ categories: [release, dropular, software]
 tumblr_id: 1102106282  
 date: 2010-04-21 07:24:07 UTC
 title: New Dropular released
-photo_url: http://farm3.static.flickr.com/2786/4539649287_5ea6ac927a_o.png
+photo_url: //farm3.static.flickr.com/2786/4539649287_5ea6ac927a_o.png
 redirect_from: ["/2010/04/21/dropular-released.html"]
 
 ---

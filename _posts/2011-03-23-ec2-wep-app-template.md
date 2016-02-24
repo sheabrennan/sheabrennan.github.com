@@ -44,7 +44,7 @@ Let's start by creating an account at Amazon Web Services: Visit <https://aws-po
 
 When you have created your account, head over to the [AWS Management Console](https://console.aws.amazon.com/ec2/home) — a relatively easy-to-use web interface for starting and managing virtual servers. It should look something like this:
 
-![Screen shot 2011 03 23 at 11 29 05](http://farm6.static.flickr.com/5070/5552240507_fdff9f6549_o.png)
+![Screen shot 2011 03 23 at 11 29 05](//farm6.static.flickr.com/5070/5552240507_fdff9f6549_o.png)
 
 Depending on where in the world your and/or your users are, you can chose one of several geographic regions. A rule of thumb is that the farther away a server is located, the slower will it be to access. In the top-left corner you find a selection box labelled "Region". Click it to switch to any of the available regions.
 
@@ -60,17 +60,17 @@ After choosing your geographical region, click the alluring "Launch instance" bu
 - EU west: `ami-fb9ca98f`
 - Asia Pacific (Singapore): `ami-0c423c5e`
 
-![Screen shot 2011 03 23 at 11 49 42](http://farm6.static.flickr.com/5025/5552851318_dcb5dd8c93_o.png)
+![Screen shot 2011 03 23 at 11 49 42](//farm6.static.flickr.com/5025/5552851318_dcb5dd8c93_o.png)
 
 Click the "Select" button of the machine and it's time to enter some "Instance details". Note that we will use the term "instance" from here on — it's the name Amazon uses for "virtual machine" or "server".
 
-![Screen shot 2011 03 23 at 11 52 38](http://farm6.static.flickr.com/5055/5552855164_38e79a2589_z.jpg)
+![Screen shot 2011 03 23 at 11 52 38](//farm6.static.flickr.com/5055/5552855164_38e79a2589_z.jpg)
 
 Let the "Number of instances" and "Availability Zone" be at their default values ("1" and "No Preference"). For "Instance Type", chose "Micro" and click the "Continue" button.
 
 For the next step, the only thing we want to change is the last setting; "Shutdown Behavior". Set this to "Stop", otherwise your server will *disappear into the void of cyberspace* if you accidentally type `sudo shutdown` when logged in:
 
-![Screen shot 2011 03 23 at 11 53 27](http://farm6.static.flickr.com/5182/5552856434_e4f7f15fe6_z.jpg)
+![Screen shot 2011 03 23 at 11 53 27](//farm6.static.flickr.com/5182/5552856434_e4f7f15fe6_z.jpg)
 
 Then click the meaty "Continue" button.
 
@@ -78,13 +78,13 @@ During the next step, simply [give the instance a name of your choice](http://fa
 
 We are now going to "Create a new Key Pair". Enter a name for the key and click the "Create & Download your Key Pair" link:
 
-![Screen shot 2011 03 23 at 11 56 17](http://farm6.static.flickr.com/5251/5552275015_81e959eff2_z.jpg)
+![Screen shot 2011 03 23 at 11 56 17](//farm6.static.flickr.com/5251/5552275015_81e959eff2_z.jpg)
 
 ***Important:*** *This is the one key providing access to your new server. If you lose it you will no longer be able to access the server, so make sure to make a secure backup (e.g. send yourself an email with the key attached using a secure email provider like Gmail, or put it on an encrypted USB drive).*
 
 Then continue to the next step where we will "Create a new Security Group". Name it "webapp" and add three of the pre-defined rules available in the "Create a new rule" drop-down box: SSH, HTTP and HTTPS:
 
-![Screen shot 2011 03 23 at 12 03 10](http://farm6.static.flickr.com/5149/5552870298_507842af93_z.jpg)
+![Screen shot 2011 03 23 at 12 03 10](//farm6.static.flickr.com/5149/5552870298_507842af93_z.jpg)
 
 Click our favorite "Continue" button and you should get a summary of your configuration. Review the details and when feeling like a happy little puppy, press firmly on the "Launch" button.
 
@@ -92,7 +92,7 @@ Click our favorite "Continue" button and you should get a summary of your config
 
 Your instance will start to launch. Close the "wizard", wait a few seconds and you should see something like this (select your instance in the list if the bottom part is empty):
 
-![Screen shot 2011 03 23 at 12 08 34](http://farm6.static.flickr.com/5139/5552878362_001d3b4af7_z.jpg)
+![Screen shot 2011 03 23 at 12 08 34](//farm6.static.flickr.com/5139/5552878362_001d3b4af7_z.jpg)
 
 In the bottom part "Description" you will find the address of your instance labelled "Public DNS" (it should look similar to ec2-123-123-123-123.us-west-1.compute.amazonaws.com). Select, copy!
 

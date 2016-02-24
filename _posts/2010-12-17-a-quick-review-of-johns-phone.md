@@ -9,7 +9,7 @@ redirect_from: ["/2010/12/17/a-quick-review-of-johns-phone.html"]
 
 ---
 
-![Picture of John's Phone with accessories](http://farm6.static.flickr.com/5001/5268844082_388e53b758_z.jpg)
+![Picture of John's Phone with accessories](//farm6.static.flickr.com/5001/5268844082_388e53b758_z.jpg)
 
 Received my [John's Phone](http://www.johnsphones.com/) this week and I'll just put it out there: I'm disappointed.
 

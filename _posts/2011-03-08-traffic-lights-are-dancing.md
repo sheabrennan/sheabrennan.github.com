@@ -11,7 +11,7 @@ Recently Apple released the App Store for Macs (that is, a way to distribute and
 
 The probably most discussed topic surrounding its UI is the rather radical moving of the window control buttons aka "traffic lights":
 
-![Comparison of OS X window controls](http://farm6.static.flickr.com/5255/5509185504_7edc4531c8_o.png)
+![Comparison of OS X window controls](//farm6.static.flickr.com/5255/5509185504_7edc4531c8_o.png)
 
 Now, from a purely aesthetic perspective this was a fairly good move as the "traffic lights" align nicely with other parts of the window header to create visual balance. But interaction design is not art, it's rather closer to "architecture".
 
@@ -19,7 +19,7 @@ A well-designed human-computer interface is a winner if it ultimately ***helps t
 
 Let's get a little more concrete in our explanation of the problem with moving these "traffic lights". In the following illustration we compare the "hit area" (the active area in which you can click) for the window close button, based on the OS X standard position.
 
-![Hit area comparison](http://farm6.static.flickr.com/5099/5509224988_2313b8e601_o.png)
+![Hit area comparison](//farm6.static.flickr.com/5099/5509224988_2313b8e601_o.png)
 
 Now, you might think "Hey, I have eyes! I can see where I click." which isn't a false assertion, however—and in fact—most things you do are executed through [spatial memory](http://en.wikipedia.org/wiki/Spatial_memory) rather than by purely visual aid. That is, you learn where to click and you stop looking.
 
@@ -31,7 +31,7 @@ In my opinion, the "traffic lights" are a set of highly standardized and widely 
 
 Is this really so ugly (it's *a bit* ugly I must admit) that making it (aesthetically) prettier is worth the price of lowering the user's performance?
 
-![Corrected window controls](http://farm6.static.flickr.com/5220/5509315984_cefb27c6dd_o.png)
+![Corrected window controls](//farm6.static.flickr.com/5220/5509315984_cefb27c6dd_o.png)
 
 Respected Mac-sphere writer [John Gruber states](http://daringfireball.net/2011/01/uniformity_vs_individuality_in_mac_ui_design):
 

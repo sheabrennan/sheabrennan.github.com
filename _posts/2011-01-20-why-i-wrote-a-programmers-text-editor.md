@@ -30,7 +30,7 @@ Having to learn a completely new set of shortcuts and methods is not worth the e
 
 So with Kod I'm aiming to create a versatile all-around utility for writing computer programs aimed a this group of "non-computer-scientist people who write computer programs". Like me, for instance. The tabs are an integral part of providing a relatively low entry barrier for unexperienced and/or light-weight programmers and composers of plain text.
 
-![Sketch of a possible UI extension to the location bar](http://farm6.static.flickr.com/5244/5373093980_8e17382b2f_o.png)
+![Sketch of a possible UI extension to the location bar](//farm6.static.flickr.com/5244/5373093980_8e17382b2f_o.png)
 
 The idea is to provide further "power features" which have little or no impact on the graphical user interface as per default configuration. Using the location bar for opening files with fuzzy pattern matching is one of those ideas where unless you press the key combination for that particular feature, it won't get in your way nor cause confusion.
 

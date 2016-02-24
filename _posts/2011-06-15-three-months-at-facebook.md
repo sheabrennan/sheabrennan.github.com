@@ -3,7 +3,7 @@ title: 3 months at Facebook
 layout: post
 tags: facebook
 fb_comments: 25
-photo_url: http://farm3.static.flickr.com/2111/5821627543_0d25a9079d_z.jpg
+photo_url: //farm3.static.flickr.com/2111/5821627543_0d25a9079d_z.jpg
 redirect_from: ["/2011/06/15/three-months-at-facebook.html"]
 
 ---
@@ -12,11 +12,11 @@ I've now been at [Facebook](http://www.facebook.com/design) in Palo Alto, Califo
 
 This little textual outlet of mine has been silent for a while, mainly because I've been so caught up in a very exciting thing we're making at Facebook, and probably will continue to be for a while.
 
-![Me in the Facebook HQ backyard](http://farm6.static.flickr.com/5188/5836378187_0794671556_z.jpg)
+![Me in the Facebook HQ backyard](//farm6.static.flickr.com/5188/5836378187_0794671556_z.jpg)
 
 What really blows my mind about this place is how small it feels, yet we are thousands of people working at Facebook. The organizational structure is very flat and most responsibility is distributed, which is a very interesting concept. I work as a product designer--in our small but amazing Product team--meaning I do everything from conceptual development and management, to interaction design and graphic design.
 
-![Chris, Brandon, Francis and Joey](http://farm6.static.flickr.com/5197/5836910200_1d2ee58216_z.jpg)
+![Chris, Brandon, Francis and Joey](//farm6.static.flickr.com/5197/5836910200_1d2ee58216_z.jpg)
 
 We generally have one product designer and one product manager pair up to form a "mini product team" in each project. This gives me the feeling close to that of a small start-up -- "let's do this together!".
 
@@ -30,7 +30,7 @@ You can find a couple of images from my first two months in ["My first two month
 
 Moving to San Francisco, California from Stockholm, Sweden is a whole different story.
 
-[![San Francisco seen from Twin Peaks](http://farm6.static.flickr.com/5234/5836413179_c2e8553dc5_z.jpg)](http://www.flickr.com/photos/rsms/5607679736/)
+[![San Francisco seen from Twin Peaks](//farm6.static.flickr.com/5234/5836413179_c2e8553dc5_z.jpg)](http://www.flickr.com/photos/rsms/5607679736/)
 
 First off, this is a totally *amazing place*, full of life.
 
@@ -46,6 +46,6 @@ But all that stuff is just an itch -- people here are amazing!
 
 I happily trade this lack of modern infrastructure for the brilliant openness and warmth of these people.
 
-![Highway 1 road trip makes us jumpsy](http://farm3.static.flickr.com/2773/5836990700_71f3b59de5_z.jpg)
+![Highway 1 road trip makes us jumpsy](//farm3.static.flickr.com/2773/5836990700_71f3b59de5_z.jpg)
 
 Now, back to changing the world.

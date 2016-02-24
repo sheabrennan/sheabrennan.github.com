@@ -10,7 +10,7 @@ redirect_from: ["/2010/09/25/buy-my-bessa.html"]
 
 I'm selling one of my best analogue 35mm rangefinder cameras: a mint condition Voigtländer Bessa R4a, including a Ultron 35/1.7 lens. Bought new from the factory in August of 2007.
 
-![Picture of the camera](http://farm5.static.flickr.com/4149/5023456910_2455b489fe_z.jpg)
+![Picture of the camera](//farm5.static.flickr.com/4149/5023456910_2455b489fe_z.jpg)
 
 I'm selling this beautiful tool since I no longer use it (lack of time). I live in [Vasastan, Stockholm, Sweden](http://www.hitta.se/SearchCombi.aspx?SearchType=4&UserControlSearchBlock:TextBoxWhere=11362) and the stuff can be picked up in the Stockholm city area. The price is 10k SEK and the package comes in original boxes with manuals, protective covers, etc.
 

@@ -20,11 +20,11 @@ The purpose of Sol is learning. As we are defining our world, we have an extreme
 
 ## Design overview
 
-![Sketch of the VM with schedulers](http://farm9.staticflickr.com/8335/8089500428_b103d2c23d_o.png)
+![Sketch of the VM with schedulers](//farm9.staticflickr.com/8335/8089500428_b103d2c23d_o.png)
 
 In the Sol VM there are one or more *schedulers*, each running on one CPU core (not yet implemented at the time of writing this).
 
-![Sketch of a scheduler](http://farm9.staticflickr.com/8049/8089500560_622bd30623_o.png)
+![Sketch of a scheduler](//farm9.staticflickr.com/8049/8089500560_622bd30623_o.png)
 
 Each *scheduler* maintains a list of *tasks* to be run. This list is called the *run queue*. A scheduler also maintains I/O watchers, timers, handles OS interrupts, etc. The scheduler does most of the work in Sol as it not only does all those fancy things I just described, but it also executes program code.
 
@@ -40,7 +40,7 @@ The *run queue* is a list of tasks ordered in the way they are scheduled.
 
 Let's have a look at a *task*:
 
-![Sketch of a task and its activation records](http://farm9.staticflickr.com/8195/8089499085_ddd9cb9de2_o.png)
+![Sketch of a task and its activation records](//farm9.staticflickr.com/8195/8089499085_ddd9cb9de2_o.png)
 
 As we can see, a *task* is mostly an abstraction and contains only one significant component: [*Activation records*](http://en.wikipedia.org/wiki/Call_stack#Structure). These comprise a task's call stack and each *activation record* corresponds to one (active) function call. An activation record contains a reference to the function prototype (more on this in just a second) it's executing, a *program counter* (usually called *PC*) which is a cursor for the currently executing program instruction and finally a registry for values.
 
@@ -203,7 +203,7 @@ No toy VM can be presented without shame unless it's able to [multitask](http://
 
 Sol has an operation called "yield" which is able to pause a task in any state and later have that task resume at the exact same state. 
 
-![Sketch of tasks yielding](http://farm9.staticflickr.com/8468/8089711825_e00b434731_o.png)
+![Sketch of tasks yielding](//farm9.staticflickr.com/8468/8089711825_e00b434731_o.png)
 
 From the task's perspective it never knew it was paused and resumed. This is a powerful primitive as we can implement many features on top of this. At the time of writing, Sol already has two different types of *yield*: Yielding for other tasks (so they can run or be scheduled from I/O etc events), and yielding for a timer to expire. At the end of this article there are a few example programs, all of them making use of yield.
 

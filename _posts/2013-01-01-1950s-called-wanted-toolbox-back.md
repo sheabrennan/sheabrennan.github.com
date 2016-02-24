@@ -28,7 +28,7 @@ Writing is a universal tool we created for conveying information in a way that c
 
 Just as the now mundane tools pen and paper have evolved from blood and cave walls into sharp stones and clay tablets—into ink and papyrus into pen and paper and lately into stylus and screen—the fundamental tools (i.e. computer programming) we use today to build tomorrow's toolbox (i.e. software) have not evolved to make use of our current arsenal of technology. How will we build software 20 years from now? 200 years from now? Hopefully not limited by the same factors as we are today, namely expressing multi-dimensional and naturally concurrent systems in one-dimensional, sequential text.
 
-![High jump](http://farm9.staticflickr.com/8078/8337433556_d3104c8b59_o.png)
+![High jump](//farm9.staticflickr.com/8078/8337433556_d3104c8b59_o.png)
 
 We seem to have reached an upper level of utility with our current toolbox for programming computers, much like the athletic Olympic sport of [High Jump](http://en.wikipedia.org/wiki/High_jump), where the current record of 2.45m has remained for 20 years — here we have reached the limit of the tool box (the human body.) To allow High Jump to "progress" further, we would either need to change the definition and rules of the sport or allow modified human bodies (i.e. doping, cybernetics, etc) to participate.
 
@@ -48,7 +48,7 @@ A good example is the car. If you owned a car in the 1800s you would know how to
 
 The field of programming need to see a renaissance in fundamental reinvention, just as it did in the 1950s when programming machines using levers and buttons was replaced by programming machines using textual sequences of computer commands.
 
-![Minority report FTW](http://farm9.staticflickr.com/8072/8337458910_786074443c_o.png)
+![Minority report FTW](//farm9.staticflickr.com/8072/8337458910_786074443c_o.png)
 
 Okay, maybe we're not in the movie Minority Report just yet, but still, today's multi-sensory input-output technology like high-density interactive [touch screens which "touches back"](http://www.technologyreview.com/news/417879/touch-screens-that-touch-back/) and [spatial 3D positional audio](http://www.hitl.washington.edu/scivw/EVE/I.B.1.3DSoundSynthesis.html) are all interesting technology that just now have become economically viable and high-fidelity enough to be forgotten — "forgotten" as in us no longer thinking about the technology itself, but to be able to intuitively focus on whatever is presented and conveyed.
 

@@ -7,7 +7,7 @@ redirect_from: ["/2011/02/06/osx-menubar-should-be-dark.html"]
 
 The OS X Menubar is that light-grey thing stuck to the upper edge of the screen. It's stationary (with the exception for "fullscreen" modes) and thus is always visible. The Menubar is one of the core concepts of OS X's UX which I really appreciate and which makes it hard to use OS'es which have one menu bar for each window.
 
-[![The OS X Menubar, with translucency disabled](http://farm6.static.flickr.com/5056/5421155787_6c1c146c08_z.jpg)](http://farm6.static.flickr.com/5056/5421155787_c33e171976_o.png)
+[![The OS X Menubar, with translucency disabled](//farm6.static.flickr.com/5056/5421155787_6c1c146c08_z.jpg)](http://farm6.static.flickr.com/5056/5421155787_c33e171976_o.png)
 
 Anyhow, the thing is always there and it's bright. So what?
 
@@ -27,19 +27,19 @@ As I see it, there's no sturdy logical or "concrete" argument for using a light-
 
 So yesterday, while having some kind of weird hack-slack-and-semla evening with my friend Oscar, I decided to hack OS X in order to achieve a black-with-white-text Menubar. Now, I'm not a big fan of hacking things which aren't meant to be hacked (like modifying proprietary binary blob resource files in the OS X Window Server). I gave up and are now instead using [Nocturne](http://code.google.com/p/blacktree-nocturne/) -- a neat little app which simply inverts the colors of the Menubar. This is what my desktop looks like now:
 
-[![Screenshot of my desktop](http://farm6.static.flickr.com/5219/5423716650_6acfcaf187_z.jpg)](http://farm6.static.flickr.com/5219/5423716650_96c3ea2a78_o.png)
+[![Screenshot of my desktop](//farm6.static.flickr.com/5219/5423716650_6acfcaf187_z.jpg)](http://farm6.static.flickr.com/5219/5423716650_96c3ea2a78_o.png)
 
 Focus on essentials rather than peripheral functionality.
 
 Here's what a (more or less) standard OS X 10.6 desktop looks like:
 
-[![Screen shot 2011 02 06 at 15 09 16](http://farm6.static.flickr.com/5020/5421697380_b49f268c60_z.jpg)](http://farm6.static.flickr.com/5020/5421697380_b9371cdb70_o.png)
+[![Screen shot 2011 02 06 at 15 09 16](//farm6.static.flickr.com/5020/5421697380_b49f268c60_z.jpg)](http://farm6.static.flickr.com/5020/5421697380_b9371cdb70_o.png)
 
 I believe the next version of OS X (10.7 aka "Lion") will feature a black Menubar, or even no stationary Menubar at all but rather one that slides down when the mouse or finger comes close to the upper screen edge, almost like the Dock when hidden.
 
 iOS has gotten a lot of attention and some of the really good UX and UI people at Apple has moved to or otherwise become part of the iOS HI team. For better or worse, OS X 10.7 is likely to have many iOS user interface ideas incorporated, like the fugly [Launchpad](http://www.apple.com/macosx/lion/#springboard) revealed at Apple's ["Back to the Mac"](http://arstechnica.com/apple/news/2010/10/apple-announces-back-to-the-mac-event-for-october-20.ars) event last October:
 
-![Launchpad](http://farm6.static.flickr.com/5093/5421714226_85c74a6a57_z.jpg)
+![Launchpad](//farm6.static.flickr.com/5093/5421714226_85c74a6a57_z.jpg)
 
 ### Notes & references
 
