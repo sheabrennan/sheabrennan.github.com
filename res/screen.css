@@ -46,7 +46,8 @@ body {
   background-attachment: fixed;
   opacity: 0.4;
   background-size: 100%;
-  filter: alpha(opacity=40)
+  filter: alpha(opacity=40);
+  z-index: -1;
 }
 div.breaker {
   clear: both;
@@ -105,19 +106,19 @@ a {
   text-decoration: none;
 }
 a:link, a:active {
-  color: #316d96;
+  color: #3D549F;
 }
 a:visited {
-  color: #7e5494;
+  color: #5F76C0;
 }
 a:link:hover, a:active:hover, a:visited:hover {
   text-decoration: underline;
 }
 a:link:hover, a:active:hover {
-  color: #006be4;
+  color: #5F76C0;
 }
 a:visited:hover {
-  color: #af00cf;
+  color: #3D549F;
 }
 
 /*a > img { margin-bottom:-1px; }*/
@@ -712,7 +713,7 @@ footer img.cc {
   border: none;
   width: 1em;
   height: 1em;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 footer a.cc:hover {
   text-decoration: none;
