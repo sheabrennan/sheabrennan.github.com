@@ -54,7 +54,8 @@
     {% endif %}
     <script>window.initFuncs = [];</script>
   </head>
-  <body{% if page.wide_layout %} class="wide body"{% else %} class="body" {% endif %}>
+  <body{% if page.wide_layout %} class="wide" {% endif %}>
+    <div class=background></div>
     <header>
       <h1 class="logo" onclick="document.location.href='/';"><a href="/"><img src="/res/small-logo.png" width="180" height="132" alt="Signature"></a></h1>
       <ul class="navigation">
