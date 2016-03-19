@@ -710,7 +710,7 @@ footer img.cc {
   border: none;
   width: 1em;
   height: 1em;
-  opacity: 0.4;
+  opacity: 0.8;
 }
 footer a.cc:hover {
   text-decoration: none;
@@ -719,7 +719,7 @@ footer a.cc:hover img.cc {
   opacity: 1;
 }
 footer a:link {
-  color: #778;
+  color: #000;
 }
 
 /* Viewport size */
