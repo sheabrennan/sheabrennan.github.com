@@ -2,7 +2,7 @@
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8">
-    <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}Rasmus Andersson</title>
+    <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}Shea Brennan</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     {% if page.title != "Archive (sidebar)" %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,14 +18,10 @@
     <link rel="apple-touch-icon-precomposed" href="/res/apple-touch-icon-57x57-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/res/apple-touch-icon-{% if page.ios_app_name %}{{page.ios_app_name}}-{% endif %}72x72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/res/apple-touch-icon-114x114-precomposed.png">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@rsms">
     {% if page.ios_app_name %}
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     {% endif %}
-    <meta property="fb:admins" content="728642302">
-    <meta property="fb:app_id" content="38027689216">
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }}">
       {% if page.description %}
@@ -36,7 +32,7 @@
       <meta name="og:description" content="{{ content | strip_html | truncatewords: 25 }}">
       {% endif %}
     {% else %}
-      <meta name="description" content="Ramblings by Rasmus Andersson -- a Swedish designer with a passion for technology">
+      <meta name="description" content="Accountabilibuddy for Shea Brennan">
     {% endif %}
     {% if page.og_image_url %}
     <meta property="og:image" content="{{ page.og_image_url }}">
@@ -46,7 +42,7 @@
     {% endif %}
     {% endif %}
     <meta property="og:url" content="https://rsms.me{{ page.url | remove_first:'index.html' }}">
-    <meta property="og:site_name" content="rsms.me">
+    <meta property="og:site_name" content="goibniudesign.com">
     <meta property="og:type" content="article">
     <meta property="og:locale" content="en_GB" />
     {% if page.date %}
