@@ -10,5 +10,18 @@ title: About
 
 
 
-I'm Shea. I'm not sure what I'm doing. Here or Now.
+I'm Shea. 
+
+
+
+
+
+
+
+
+
+
+I'm not sure what I'm doing. 
+
+Here or Now.
 
