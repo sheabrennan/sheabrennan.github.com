@@ -37,7 +37,7 @@ layout: default
 var columns = null;
 
 function f(){
-  var cols = window.innerWidth >= 890 ? 2 : 1;
+  var cols = 1//window.innerWidth >= 890 ? 2 : 1;
   if (columns === cols) { return; }
   columns = cols;
   // if (cols === 2) console.log('switch to multi-column');
